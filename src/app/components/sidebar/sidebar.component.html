@@ -1,0 +1,57 @@
+<!-- <p>sidebar works!</p> -->
+
+<!-- <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+  <div class="position-sticky">
+    <div class="list-group list-group-flush mx-3 mt-4">
+      <a
+        routerLink="/profile"
+        class="list-group-item list-group-item-action py-2 ripple sky-button"
+        aria-current="true"
+      >
+        <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Profile</span>
+      </a>
+      <a
+        routerLink="/dashboard"
+        class="list-group-item list-group-item-action py-2 ripple sky-button"
+      >
+        <i class="fas fa-chart-area fa-fw me-3"></i><span>Dashboard</span>
+      </a>
+      <a
+        href="#"
+        class="list-group-item list-group-item-action py-2 ripple sky-button"
+        ><i class="fas fa-lock fa-fw me-3"></i><span>Analysis</span></a
+      >
+    </div>
+  </div>
+</nav> -->
+
+<div class="col-2 bg-light mt-5 px-5">
+  <div class="container">
+    <div class="row">
+      <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="" />
+    </div>
+  </div>
+  <!-- Your navigation items go here -->
+  <ul class="nav flex-column">
+    <li class="nav-item mt-4">
+      <a
+        class="nav-link sky-button {{ profclicked }}"
+        (click)="profileClicked()"
+        >Profile</a
+      >
+    </li>
+    <li class="nav-item mt-4">
+      <a
+        class="nav-link sky-button {{ dashClicked }}"
+        (click)="dashboardClicked()"
+        >Dashboard</a
+      >
+    </li>
+    <li class="nav-item mt-4">
+      <a class="nav-link sky-button {{ sumClicked }}" (click)="summaryClicked()"
+        >Summary</a
+      >
+    </li>
+    <!-- Add more navigation items as needed -->
+  </ul>
+</div>

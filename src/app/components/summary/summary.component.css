@@ -1,0 +1,101 @@
+#search {
+  margin-right: 20px;
+}
+
+.upcoming {
+  text-align: right;
+}
+
+.box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  min-height: 300px;
+}
+
+.outcomes {
+  margin-top: 20px;
+  background-color: #e3e8fd;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 230px);
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* ...existing styles... */
+
+#search {
+  margin-right: 50px; /* Increased right margin */
+  border-radius: 15px; /* Make input field rounded */
+  padding: 5px 10px; /* Add some padding */
+}
+
+#content .box:first-child {
+  border: 2px dotted #b0befb; /* Make border dotted */
+  border-radius: 15px; /* Make box rounded */
+  padding: 20px;
+  background-color: #e3e8fd; /* Light grey background */
+  text-align: center;
+}
+
+#content .box:first-child button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #a7b7fc; /* Black background */
+  color: #000000; /* White text */
+  cursor: pointer;
+}
+
+#content .box:last-child {
+  border-radius: 15px; /* Make box rounded */
+  background-color: #e3e8fd; /* Grey background */
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #a8b7f9;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.inner-circle {
+  background-color: #e3e8fd;
+  height: 90px;
+  width: 90px;
+  margin: 5px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold
+}

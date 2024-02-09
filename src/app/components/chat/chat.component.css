@@ -1,0 +1,38 @@
+.text-box{
+  border: 2px !important;
+  border-radius: 15px !important;
+  border-color: black !important;
+
+}
+
+button{
+  background-color: #c7c7ff;
+  color: #48489c;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 0px;
+  padding: 5px 14px;
+}
+
+button:hover{
+  background-color: #48489c;
+  color: white;
+}
+
+.chat-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.chat-history {
+  height: 500px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+

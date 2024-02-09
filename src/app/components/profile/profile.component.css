@@ -1,0 +1,89 @@
+.container-margin{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+}
+
+.submt{
+    background-color: #c7c7ff;
+    border-color: 0px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.enlarge-btn {
+    display: inline-block;
+    padding: 30px 20px;
+    padding-bottom: 30;
+    font-size: 16px;
+    position: relative; /* Set position to relative for absolute positioning of numbers */
+    transition: transform 0.3s ease-in-out;
+    background-color: #c7c7ff; /* Lighter purple color */
+    color: #000000; /* Set the text color to black for better contrast */
+    border: none; /* Remove the default button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-bottom: 5px; /* Add some space between buttons and numbers */
+    margin: 15px;
+  }
+
+  .enlarge-btn:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  }
+
+  .card-enlarge:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  }
+
+  button{
+    background-color: #c7c7ff;
+    color: #48489c;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px 14px;
+  }
+
+  button:hover{
+    background-color: #48489c;
+    color: white;
+  }
+
+.card-won{
+  width: 15rem;
+  /* background-color: #38a53b; */
+  background-color: #38a53b;
+  color: rgb(239, 238, 238);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.card-loss{
+  width: 15rem;
+  background-color: #c0362c;
+  color: rgb(239, 238, 238);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.card-progress{
+  width: 15rem;
+  background-color: #3f51b5;
+  color: rgb(239, 238, 238);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.progress-bar {
+  width: 100%;
+  background-color: black ;
+  border-radius: 3px;
+  overflow: hidden;
+  height: 3px;
+}
+
+.progress {
+  background-color: white;
+  height: 3px;
+}

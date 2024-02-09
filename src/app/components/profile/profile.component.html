@@ -1,0 +1,187 @@
+<app-navbar></app-navbar>
+<div class="container p-0 mx-0">
+  <div class="row justify-content-between">
+    <div class="col-2 col-2 border rounded-right">
+      <app-sidebar></app-sidebar>
+    </div>
+    <div class="col-10 pt-5 px-5">
+      <div class="row">
+        <div class="col-3">
+          <img
+            class="rounded-circle h-75"
+            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+            alt=""
+          />
+        </div>
+        <div class="col-5">
+          <div class="row"><h3>Welcome</h3></div>
+          <div class="row"><h1>Profile management</h1></div>
+          <p>
+            Law is the essential foundation of stability and order both within
+            societies and in international relations.
+          </p>
+          <div class="row"></div>
+        </div>
+        <div class="col-4">
+          <!-- <ejs-calendar
+            id="calendar"
+            [value]="value"
+            [min]="minDate"
+            [max]="maxDate"
+          >
+          </ejs-calendar> -->
+          <!-- <img
+            class="rounded-circle h-75"
+            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+            alt=""
+          /> -->
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center mt-5">
+        <div class="col col-md-auto">
+          <!-- <button type="submit" class="submt enlarge-btn">
+            Cases won <br />
+            43
+          </button> -->
+          <div class="card card-won card-enlarge">
+            <div class="card-body">
+              <h6 class="card-title">Cases won</h6>
+              <h4 class="card-subtitle mb-2">43</h4>
+              <div class="progress-bar">
+                <div class="progress" [style.width.%]="casesWon"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          <div class="card card-loss card-enlarge">
+            <div class="card-body">
+              <h6 class="card-title">Cases loss</h6>
+              <h4 class="card-subtitle mb-2">07</h4>
+              <div class="progress-bar">
+                <div class="progress" [style.width.%]="casesLost"></div>
+              </div>
+            </div>
+          </div>
+          <!-- <button type="submit" class="submt enlarge-btn">
+            Cases lost <br />
+            07
+          </button> -->
+        </div>
+        <div class="col col-md-auto">
+          <div class="card card-progress card-enlarge">
+            <div class="card-body">
+              <h6 class="card-title">In Progress</h6>
+              <h4 class="card-subtitle mb-2">10</h4>
+              <div class="progress-bar">
+                <div class="progress" [style.width.%]="casesLost"></div>
+              </div>
+            </div>
+          </div>
+          <!-- <button type="submit" class="submt enlarge-btn">
+            In Progress <br />
+            10
+          </button> -->
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center mt-5">
+        <!-- <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Case no</th>
+              <th scope="col">Litigation Overview</th>
+              <th scope="col">Lead Attorney</th>
+              <th scope="col">Prosecutor</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Sample overview 1</td>
+              <td>John doe</td>
+              <td>Jane Smith</td>
+              <td>In progress</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>Sample overview 2</td>
+              <td>Alice jhonson</td>
+              <td>Bob brown</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>Sample overview 1</td>
+              <td>John doe</td>
+              <td>Jane Smith</td>
+              <td>In progress</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>Sample overview 1</td>
+              <td>John doe</td>
+              <td>Jane Smith</td>
+              <td>In progress</td>
+            </tr>
+          </tbody>
+        </table> -->
+        <table class="table px-5">
+          <thead>
+            <tr>
+              <th scope="col">Case no</th>
+              <th scope="col">Lead Attorney</th>
+              <!-- <th scope="col">Prosecutor</th> -->
+              <th scope="col">Case Type</th>
+              <th scope="col">Status</th>
+              <th scope="col">Judge</th>
+              <!-- <th scope="col">Legal overview</th> -->
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">
+                <!-- <button type="submit" (click)="getPDF(case.caseno)"> -->
+                <button type="submit">1024</button>
+              </th>
+              <!-- <td>Legal overview</td> -->
+              <td>John Doe</td>
+              <td>Civil law</td>
+              <td>closed</td>
+              <td>Fathima Beevi</td>
+              <!-- <th scope="col"><a href="">Legal overview</a></th> -->
+            </tr>
+            <tr>
+              <th scope="row">
+                <!-- <button type="submit" (click)="getPDF(case.caseno)"> -->
+                <button type="submit">2728</button>
+              </th>
+              <!-- <td>Legal overview</td> -->
+              <td>Jane smith</td>
+              <td>Criminal law</td>
+              <td>closed</td>
+              <td>Anna Chandy</td>
+              <!-- <th scope="col"><a href="">Legal overview</a></th> -->
+            </tr>
+            <tr>
+              <th scope="row">
+                <!-- <button type="submit" (click)="getPDF(case.caseno)"> -->
+                <button type="submit">5871</button>
+              </th>
+              <!-- <td>Legal overview</td> -->
+              <td>James Taylor</td>
+              <td>Criminal law</td>
+              <td>dismissal of suit</td>
+              <td>Justice Surya Kant</td>
+              <!-- <th scope="col"><a href="">Legal overview</a></th> -->
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

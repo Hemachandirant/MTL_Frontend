@@ -1,0 +1,21 @@
+.dashboard-width{
+    width: 100% !important;
+    height: 100px;
+    background-color: rgb(220, 220, 220) !important;
+}
+
+.nav-width{
+    width: 101vw;
+}
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 0 0 3px rgb(120, 120, 120);
+}
+
+.nav-color{
+  background-color: #48489c !important;
+  color: rgb(219, 219, 219);
+
+}
